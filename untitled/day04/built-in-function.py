@@ -94,7 +94,7 @@ e = functools.reduce(lambda x,y:x+y,range(10)) # 依次将range(10)中的每个�
 print(type(e))
 print(e)
 
-f = functools.reduce(lambda x,y:x+1,range(10)) #
+f = functools
 print(type(f))
 print(f)
 
@@ -110,9 +110,11 @@ print(globals()) #当前整个文件的所有字段
 print("\r\n========== ")
 print(hash("a"))
 
+print(hash("毕"))
+
 print("\r\n========== ")
 
-
+print(locals())
 print("\r\n========== ")
 print("\r\n========== ")
 print("\r\n========== ")
