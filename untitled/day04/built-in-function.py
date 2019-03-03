@@ -116,7 +116,14 @@ print("\r\n========== ")
 
 print(locals())
 print("\r\n========== ")
+for i, v in {'q': 'q', 'd': 'd'}.items():
+    print(i, v)
 print("\r\n========== ")
+def test():
+    local_var = 333
+print(globals())
+print(locals())
+
 print("\r\n========== ")
 print("\r\n========== ")
 print("\r\n========== ")

@@ -65,6 +65,6 @@ p2 = person[:]
 p3 = list(person)
 
 #元组 只读数组
-names2 = ("a","b","c","d")
+names2 = ("a", "b", "c", "d")
 for i in names2:
     print(i)
