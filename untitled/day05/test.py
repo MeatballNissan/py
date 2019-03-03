@@ -16,6 +16,7 @@
 import module #将整个文件形成一个变量   import 本质：将文件解释一遍
 from module import name as name3  #只取name形成一个变量
 from module import hello
+import sys,os
 # module.hello()
 # print(module.name)
 
@@ -27,4 +28,5 @@ print(module.name)
 
 name3 = 'bbb'
 hello()
-
+print(sys.path)
+print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) )
