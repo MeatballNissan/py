@@ -121,14 +121,39 @@ for i, v in {'q': 'q', 'd': 'd'}.items():
 print("\r\n========== ")
 def test():
     local_var = 333
+    print(locals())
+    print(globals())
 print(globals())
 print(locals())
+test()
+print("\r\n========== max min")
+print(max([1,2,4,44,3]))
+print(min([1,2,4,44,3]))
 
 print("\r\n========== ")
+print(hex(16))  #0x10 16进制
+print(oct(16))  #0o20 8进制
 print("\r\n========== ")
+ord("2")
 print("\r\n========== ")
+
+print(reversed([1,2,4,3]))
+# print(slice(2))
+a = {6:3,1:3,4:5,-1:3,22:2}
+print(a)
+print(sorted(a.items(),key = lambda x : x[1]))
 print("\r\n========== ")
+
+print(sum([1,2,3,5,6]))
 print("\r\n========== ")
+a = [1,2,3,4]
+b = ['a','b','c','d']
+print(zip(a,b))
+for i in zip(a,b):
+    print(i)
+
+
 print("\r\n========== ")
-print("\r\n========== ")
+# import iterator
+__import__('iterator')
 

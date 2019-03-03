@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/day03/IoTest.py" line="33" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd1b2f5-656d-432f-be5c-6c38d5bed097" name="Default Changelist" comment="git">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/strTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/strTest.py" afterDir="false" />
+    <list default="true" id="7bd1b2f5-656d-432f-be5c-6c38d5bed097" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/day04/built-in-function.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/built-in-function.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +17,7 @@
     <SUITE FILE_PATH="coverage/untitled$IoTest.coverage" NAME="IoTest Coverage Results" MODIFIED="1547557925901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/untitled$sys.coverage" NAME="sys Coverage Results" MODIFIED="1547274954053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$dict.coverage" NAME="dict Coverage Results" MODIFIED="1547291411806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
-    <SUITE FILE_PATH="coverage/untitled$built_in_function.coverage" NAME="built-in-function Coverage Results" MODIFIED="1551583383755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/untitled$built_in_function.coverage" NAME="built-in-function Coverage Results" MODIFIED="1551585817113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/untitled$strTest.coverage" NAME="strTest Coverage Results" MODIFIED="1551541660224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/untitled$IoTest__1_.coverage" NAME="IoTest (1) Coverage Results" MODIFIED="1547644844439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/untitled$list.coverage" NAME="list Coverage Results" MODIFIED="1547280500457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -58,13 +52,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day04/built-in-function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="529">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day04/json_serialize.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -88,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day01/strTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,10 +127,11 @@
         <option value="$PROJECT_DIR$/day03/fun.py" />
         <option value="$PROJECT_DIR$/day04/test.py" />
         <option value="$PROJECT_DIR$/day03/IoTest.py" />
-        <option value="$PROJECT_DIR$/day04/built-in-function.py" />
         <option value="$PROJECT_DIR$/day01/dict.py" />
         <option value="$PROJECT_DIR$/day01/list.py" />
         <option value="$PROJECT_DIR$/day01/strTest.py" />
+        <option value="$PROJECT_DIR$/day04/built-in-function.py" />
+        <option value="$PROJECT_DIR$/day04/json_serialize.py" />
       </list>
     </option>
   </component>
@@ -157,6 +157,11 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,7 +331,7 @@
       <workItem from="1546931062333" duration="32422000" />
       <workItem from="1549027900745" duration="234000" />
       <workItem from="1549208905290" duration="360000" />
-      <workItem from="1551281571188" duration="2222000" />
+      <workItem from="1551281571188" duration="4864000" />
     </task>
     <task id="LOCAL-00001" summary="bxd">
       <created>1551285388099</created>
@@ -335,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551285388099</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git">
+      <created>1551583448895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551583448895</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36149000" />
+    <option name="totallyTimeSpent" value="38791000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -352,7 +364,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="1" sideWeight="0.5025126" side_tool="true" weight="0.16544567" />
@@ -421,9 +432,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git" />
     <MESSAGE value="bxd" />
-    <option name="LAST_COMMIT_MESSAGE" value="bxd" />
+    <MESSAGE value="git" />
+    <option name="LAST_COMMIT_MESSAGE" value="git" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day01/new_Dir/Test.py">
@@ -495,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/built-in-function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day01/dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -524,10 +525,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day01/strTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="4590" column="8" selection-start-line="4590" selection-start-column="8" selection-end-line="4590" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/built-in-function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/json_serialize.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
