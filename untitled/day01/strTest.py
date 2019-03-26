@@ -42,5 +42,3 @@ print("abc".zfill(10))#0补位
 
 
 
-
-
