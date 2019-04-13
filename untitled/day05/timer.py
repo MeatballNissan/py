@@ -5,6 +5,13 @@
 # @File    : timer.py
 # @Software: PyCharm
 
+'''
+python模块：
+    1。标准库
+    2。开源模块
+    3。自定义模块
+
+'''
 import time
 print(time.process_time())
 
