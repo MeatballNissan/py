@@ -126,8 +126,8 @@ m2.update(b"helloit's me")  #update 为拼接
 print(m2.hexdigest())
 
 s1 = hashlib.sha1()
-s1.update("毕".encode())
 print(s1.hexdigest())
+s1.update("毕".encode())
 
 import hmac # 双重加密
 h = hmac.new(b"a",b"b")
