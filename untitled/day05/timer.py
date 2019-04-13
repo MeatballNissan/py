@@ -103,5 +103,33 @@ print(conf['DEFAULT']['Compression'])
 
 import hashlib
 
-#sha  基于hash   原则上比md5安全
-#md5  也是基于hash
+#sha  基于hash   原则上比md5安全  无法反解  https用的sha256？
+#md5  也是基于hash  无法反解
+
+
+m = hashlib.md5()
+m.update(b"hello")
+print(m.hexdigest())
+
+m.update(b"it's me")
+print(m.hexdigest())
+
+m2 = hashlib.md5()
+m2.update(b"helloit's me")  #update 为拼接
+print(m2.hexdigest())
+
+s1 = hashlib.sha1()
+s1.update("毕".encode())
+print(s1.hexdigest())
+
+import hmac # 双重加密
+h = hmac.new(b"a",b"b")
+print(h.hexdigest())
+
+print(type(b"hello"))
+
+
+#正则
+import re
+
+
