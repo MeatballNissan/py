@@ -1,20 +1,20 @@
-class Persion:
+class Person:
     def __init__(self,name,age):
         self.name = name
         self.age = age
     def talk(self):
         print("taking",self.name,self.age)
 
-persion = Persion("bxd","18")
-print(persion.name)
-persion.talk()
+Person = Person("bxd","18")
+print(Person.name)
+Person.talk()
 
 class Relation(object):
     def make_friends(self, obj):
         print("%s is making friends with %s" %(self.name ,obj.name))
 
 
-class Man(Persion,Relation):
+class Man(Person,Relation):
     def piao(self):
         print("piao  ....")
 
@@ -27,7 +27,7 @@ man.talk()
 man.piao()
 
 
-class Woman(Persion):
+class Woman(Person):
     def shoping(self):
         print("shoping ...")
 
@@ -36,7 +36,7 @@ woman = Woman("dsfad",29 )
 woman.talk()
 woman.shoping()
 
-#上述Persion为经典类
+#上述Person为经典类
 #新式类
 class People(object):
     def __init__(self, name):
